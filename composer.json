@@ -1,0 +1,43 @@
+{
+    "name": "mbox/back-core",
+    "description": "A powerful and modular backend core to kickstart your projects with essential functionalities. Includes authentication, role management, database utilities, and more, all designed to save development time and ensure best practices.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mbox\\BackCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge Haidar",
+            "email": "jorgehaidarmtnez@gmail.com",
+            "homepage": "https://github.com/jorgehaidar",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "illuminate/auth": "^11.0",
+        "illuminate/contracts": "^11.0",
+        "illuminate/database": "^11.0",
+        "illuminate/notifications": "^11.0",
+        "illuminate/pagination": "^11.0",
+        "illuminate/translation": "^11.0",
+        "illuminate/http": "^11.0",
+        "illuminate/support": "^11.0",
+        "maatwebsite/excel": "^3.1",
+        "tymon/jwt-auth": "^2.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "scripts": {
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
