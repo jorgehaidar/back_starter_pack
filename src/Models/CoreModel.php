@@ -2,10 +2,10 @@
 
 namespace Mbox\BackCore\Models;
 
-use App\Contracts\HasValidationRules;
-use App\Services\Security\LogService;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Mbox\BackCore\Contracts\HasValidationRules;
+use Mbox\BackCore\Services\Security\LogService;
 
 /**
  * @method static create(array $params)
@@ -15,9 +15,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 class CoreModel extends Model implements HasValidationRules
 {
-
-    public mixed $id;
-
     //define si el modelo utiliza id o uuid
 //    use HasUuids;
 
