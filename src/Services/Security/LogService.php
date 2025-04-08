@@ -2,13 +2,10 @@
 
 namespace Mbox\BackCore\Services\Security;
 
-use App\Models\Security\Log;
 use Carbon\Carbon;
+use Mbox\BackCore\Models\Security\Log;
 use Mbox\BackCore\Services\CoreService;
 use Symfony\Component\HttpFoundation\Response;
-use function App\Services\Security\auth;
-use function App\Services\Security\resolve;
-use function App\Services\Security\response;
 
 class LogService extends CoreService
 {
