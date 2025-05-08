@@ -13,7 +13,7 @@ class BackCoreServiceProvider extends ServiceProvider
 
         // Opcional: permitir publicar con vendor:publish
         $this->publishes([
-            __DIR__.'/lang' => resource_path('lang/vendor/backcore'),
+            __DIR__.'/lang' => base_path('lang'),
         ], 'translations');
     }
 
