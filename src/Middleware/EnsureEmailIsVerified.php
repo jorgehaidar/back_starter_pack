@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Mbox\BackCore\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

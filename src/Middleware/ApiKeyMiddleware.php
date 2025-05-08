@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Mbox\BackCore\Middleware;
 
 use App\Models\Security\ApiKey;
 use Closure;
