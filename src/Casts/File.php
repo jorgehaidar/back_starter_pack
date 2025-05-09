@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Casts;
+namespace Mbox\BackCore\Casts;
 
 
 use Exception;
